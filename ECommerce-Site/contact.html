@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0386267ab1.js" crossorigin="anonymous"></script>
+    <style>
+        .contact-background
+        {
+            background-image: url(img/banner/parallax.jpg);
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: top 60px center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          
+        }
+        form .buy-btn 
+        {
+            background-color: #f76839;
+        }
+        form .buy-btn:hover
+        {
+            background-color: #000;
+        }
+        /* .form-control:focus
+        {
+            border:1px solid orangered !important;
+            outline: none !important;
+        } */
+       .form-control
+       {
+        border-radius: 1.25rem;
+       }
+   
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #e9b85d;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(247, 168, 21, 0.25);
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+        <div class="container">
+            <a href="index.html"> <img src="./img/logo1.png" alt="" srcset=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i id="bar" class="fas fa-bars"></i>
+                <span ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+            
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link " href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-bag"></i>
+              </li>
+          </div>
+        </div>
+      </nav>
+     <section id="contactUs container-fluid">
+         <div class="contact-background ">
+            <h2 class="font-weight-bold">Our <span style="color: #f76839;">Featured</span></h2>
+            <hr >
+            <div class="row">
+              
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input bg-secondary" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="buy-btn">Submit</button>
+                  </form>
+            </div>
+         </div>
+     </section>
+      <footer class="mt-5 py-5 " id="footer">
+        <div class="row container mx-auto mt-5">
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+            <img src="img/logo2.png" alt="" srcset="">
+            <p class="pt-3">Fringilla urna porttitor rhoncus dolor purus luctus venenatis lectus magna fringilla diam meacenas ai eget</p>
+    
+          </div>
+          <div class="footer-one col-lg-3 col-md-6 col-12  ">
+            <h5 class="pb-2">Featured</h5>
+            <ul class="text-uppercase list-unstyled">
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Boys</a></li>
+              <li><a href="#">Girls</a></li>
+              <li><a href="#">Cloths</a></li>
+    
+    
+            </ul>
+          </div>
+          <div class="footer-one col-lg-3 col-md-6 col-12 mb-2 mb-4">
+            <h5 class="pb-2 mb-3 text-uppercase ">Contact us</h5>
+         <h5 class="text-uppercase">Address</h5>
+         <p>123 STREET NAME, CITY ,US</p>
+         <h5 class="text-uppercase">pHONE</h5>
+         <p>(123) 456-7867</p>
+         <h5 class="text-uppercase">email</h5>
+         <p>mailexample.com</p>
+          </div>
+          <div class="footer-one col-lg-3 col-md-6 col-12 mb-2">
+            <h5 class="pb-2">Instagram</h5>
+            <div class="row">
+              <img class="img-fluid w-25 h-100 m-2" src="img/insta/1.jpg" alt="" srcset="">
+              <img class="img-fluid w-25 h-100 m-2" src="img/insta/2.jpg" alt="" srcset="">
+              <img class="img-fluid w-25 h-100 m-2" src="img/insta/3.jpg" alt="" srcset="">
+              <img class="img-fluid w-25 h-100 m-2" src="img/insta/4.jpg" alt="" srcset="">
+              <img class="img-fluid w-25 h-100 m-2" src="img/insta/5.jpg" alt="" srcset="">
+    
+            </div>
+          </div>
+        </div>
+        <div class="copyright mt-5">
+          <div class="row container mx-auto">
+            <div class="col-lg-3 col-md-6 col-12" >
+              <img src="img/payment.png" alt="" srcset="">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12" >
+              <p class="pt-4">LIFEHOOD 69 All Rights Reserved</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12" >
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin in"></i></a>
+    
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
